@@ -1,0 +1,32 @@
+
+body {
+  transition: background 0.5s, color 0.5s;
+}
+
+.fade-page {
+  animation: fadeInPage 0.7s cubic-bezier(.68,-0.55,.27,1.55);
+}
+@keyframes fadeInPage {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dark-mode {
+  background: #18181b !important;
+  color: #f3f4f6 !important;
+}
+
+.toast {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: linear-gradient(90deg, #ff0080 0%, #7928ca 100%);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px #ff008044;
+  font-weight: bold;
+  z-index: 9999;
+  opacity: 0.95;
+  animation: fadeInPage 0.7s;
+}

@@ -1,0 +1,59 @@
+body, section {
+  background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.login-container {
+  background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+  box-shadow: 0 2px 12px #adb5bd44;
+  border-radius: 2rem;
+  padding: 2rem 3rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+h1 {
+  color: #212529;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  text-shadow: 0 2px 8px #dee2e6;
+}
+label {
+  color: #7928ca;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid #e0e7ff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+button {
+  width: 100%;
+  background: linear-gradient(90deg, #ff0080 0%, #7928ca 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  border-radius: 2rem;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px #ff008044;
+  transition: background 0.3s, transform 0.3s;
+}
+button:hover {
+  background: linear-gradient(90deg, #7928ca 0%, #ff0080 100%);
+  transform: scale(1.04);
+}

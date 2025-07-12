@@ -1,0 +1,14 @@
+.toast {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: linear-gradient(90deg, #ff0080 0%, #7928ca 100%);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px #ff008044;
+  font-weight: bold;
+  z-index: 9999;
+  opacity: 0.95;
+  animation: fadeInPage 0.7s;
+}

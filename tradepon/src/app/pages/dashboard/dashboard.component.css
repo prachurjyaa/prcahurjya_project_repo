@@ -1,0 +1,42 @@
+body, section {
+  background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+  min-height: 100vh;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+  color: #212529;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  gap: 1.5rem;
+}
+.bg-white {
+  background: #fff;
+  box-shadow: 0 2px 12px #adb5bd44;
+  border-radius: 1.5rem;
+}
+.text-indigo-600 {
+  color: #6366f1;
+}
+.text-pink-600 {
+  color: #ec4899;
+}
+.text-purple-600 {
+  color: #a78bfa;
+}
+.text-gray-500 {
+  color: #6b7280;
+}
+.text-gray-700 {
+  color: #374151;
+}
+.text-gray-800 {
+  color: #1f2937;
+}
+.text-xs {
+  font-size: 0.75rem;
+}
